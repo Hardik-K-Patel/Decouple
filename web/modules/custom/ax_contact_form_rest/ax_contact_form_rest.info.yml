@@ -1,0 +1,7 @@
+name: Custom Contact Form Rest
+description: Define's a POST endpoint for creating contacts while simultaneously sending an email to the associated user.
+package: Custom
+type: module
+core_version_requirement: ^10
+dependencies:
+  - drupal:contact
