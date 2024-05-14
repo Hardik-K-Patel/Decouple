@@ -1,0 +1,18 @@
+uuid: f26f67ac-a335-4687-bbac-034112c22067
+langcode: en
+status: true
+dependencies:
+  module:
+    - ax_contact_form_rest
+    - serialization
+    - user
+id: custom_contact_resource
+plugin_id: custom_contact_resource
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie
