@@ -1,0 +1,7 @@
+ax_config_export_api.settings:
+  path: '/admin/config/system/config-export'
+  defaults:
+    _form: '\Drupal\ax_config_export_api\Form\ConfigExportSettingForm'
+    _title: 'Export Configurations'
+  requirements:
+    _permission: administer site configuration'

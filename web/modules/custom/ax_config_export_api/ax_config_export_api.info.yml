@@ -1,0 +1,9 @@
+name: Export Site Configuration
+description: Provides a REST API endpoint to export site configurations.
+package: Custom
+type: module
+configure: ax_config_export_api.settings
+core_version_requirement: ^10
+dependencies:
+  - drupal:serialization
+  - drupal:rest

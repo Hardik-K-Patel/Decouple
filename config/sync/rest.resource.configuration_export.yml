@@ -1,0 +1,18 @@
+uuid: 8e595eaa-3774-4aaa-91fc-b5e97aaf461a
+langcode: en
+status: true
+dependencies:
+  module:
+    - ax_config_export_api
+    - serialization
+    - user
+id: configuration_export
+plugin_id: configuration_export
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

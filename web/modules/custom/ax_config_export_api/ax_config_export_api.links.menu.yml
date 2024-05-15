@@ -1,0 +1,5 @@
+ax_config_export_api.settings:
+  title: 'Export Site Configurations'
+  parent: system.admin_config_system
+  description: 'Export the sites Configurations.'
+  route_name: ax_config_export_api.settings
