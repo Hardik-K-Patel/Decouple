@@ -1,0 +1,4 @@
+selected_configs:
+  - system.site
+  - user.mail
+  - user.settings
